@@ -27,3 +27,6 @@ Firstly we provide the code for the MILP formulation (file HiGHs_no_single_limit
 Then we provide two files that, using the QUBO reformulations provided in the paper, solve the problem approximately using [Fujitsu's Digital Annealer Emulator](https://www.fujitsu.com/de/themes/digitalannealer/get-started/get-started-en.html). Concretely:  
 1. File balanced_collateral_fujitsu_nosinglelimits.ipynb provides the code for the balanced (slack-based) formulation.  
 2. File unbalanced_collateral_fujitsu_nosinglelimits provides the code for the unbalanced formulation.
+
+[balanced_collateral_fujitsu_nosinglelimits.ipynb](./balanced_collateral_fujitsu_nosinglelimits.ipynb)
+
