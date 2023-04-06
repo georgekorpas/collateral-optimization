@@ -12,4 +12,12 @@ In this repository we provide the code used to generate the numericall illustrat
   b) Unbalansed formulation (see arXiv:2211.13914)
 4. Provide some numerical illustrations done with emulators (i.e. by utilizing simmulated annealing) and discuss the results.
 
+We have several types of constraints for our collateral optimisation problem: 
+1. Consistency constraints - This is about ensuring we don't post more than 100% of a single asset. 
+2. Exposure constraints - The values of all assets posted to an account must be above the exposure for the account. 
+3. Single limits - There is a maximum limit on how much asset i can be posted to account j. 
+
+Remark: Consistency constraints are hard constraints and we cannot have any violations. Exposure constraints are soft constraints but we still want the solution values to be as close as possible to the requirements. For simplicity, we are currently solving it without the single limits but all files contain the function and the user can choose to activate it or not.
+
+
 <h2>Contents</h2>
