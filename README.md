@@ -40,5 +40,5 @@ This body of research has been conducted by: Megan Giron*, Georgios Korpas, Waqa
 <h5>Contact</h5>
 
 Questions, corrections and comments should be directed to:  [megancharrisze@gmail.com](mailto:megancharrisze@gmail.com) and/or
-[waqasparvaiz@live.co.uk](mailto:waqasparvaiz@live.co.uk) 
+[waqasparvaiz1@gmail.com](mailto:waqasparvaiz1@gmail.com) 
 
