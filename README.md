@@ -9,7 +9,7 @@ In this repository we provide the code used to generate the numericall illustrat
 2. Provide a Mixed Integer Linear Programming (MILP) formulation. 
 3. Provide two approaches to reformulate the MILP problem as a Quadratic Unconstrained Binary Optimization (QUBO) problem. These include:   
   a) Slack-based (balanced) formulation (see, for example, [arXiv:1302.5843](https://arxiv.org/abs/1302.5843)).  
-  b) Unbalansed formulation (see [arXiv:2211.13914]([https://arxiv.org/abs/1302.5843](https://arxiv.org/abs/2211.13914)))
+  b) Unbalansed formulation (see [arXiv:2211.13914]([https://arxiv.org/abs/1302.5843]))
 4. Provide some numerical illustrations done with emulators (i.e. by utilizing simmulated annealing) and discuss the results.
 
 We have several types of constraints for our collateral optimisation problem: 
