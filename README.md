@@ -24,7 +24,7 @@ Remark: Consistency constraints are hard constraints and we cannot have any viol
 
 Firstly we provide the code for the MILP formulation (file HiGHs_no_single_limits.ipynb) which utilizes the HiGHS solver, see [https://highs.dev/](https://highs.dev/).
 
-<h3>D-Wave's neal with Pyqubo</h3>
+<h3>D-Wave's neal with PyQUBO</h3>
 [...]
 
 <h3>Fujitsu's Digital Annealer</h3>
