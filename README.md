@@ -23,3 +23,7 @@ Remark: Consistency constraints are hard constraints and we cannot have any viol
 <h2>Contents</h2>
 
 Firstly we provide the code for the MILP formulation (file HiGHs_no_single_limits.ipynb) which utilizes the HiGHS solver, see [https://highs.dev/](https://highs.dev/).
+
+Then we provide two files that, using the QUBO reformulations provided in the paper, solve the problem approximately using [Fujitsu's Digital Annealer Emulator](https://www.fujitsu.com/de/themes/digitalannealer/get-started/get-started-en.html). Concretely:
+a. File balanced_collateral_fujitsu_nosinglelimits.ipynb provides the code for the balanced (slack-based) formulation.
+b. File unbalanced_collateral_fujitsu_nosinglelimits provides the code for the unbalanced formulation.
