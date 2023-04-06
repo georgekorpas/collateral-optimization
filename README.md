@@ -32,3 +32,9 @@ Then we provide two files that, using the QUBO reformulations provided in the pa
 
 1. File [balanced_collateral_fujitsu_nosinglelimits.ipynb](./balanced_collateral_fujitsu_nosinglelimits.ipynb) provides the code for the balanced (slack-based) formulation.  
 2. File [unbalanced_collateral_fujitsu_nosinglelimits.ipynb](./unbalanced_collateral_fujitsu_nosinglelimits.ipynb) provides the code for the unbalanced formulation.  
+
+
+<h4>Contributors</h4>
+Megan Giron*, Georgios Korpas, Waqas Parvais* and Prashant Malik, Johannes Aspman.
+
+*Equal contribution.
