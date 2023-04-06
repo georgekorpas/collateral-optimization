@@ -37,7 +37,7 @@ Then we provide two files that, using the QUBO reformulations provided in the pa
 <h4>Contributors</h4>
 This body of research has been conducted by: Megan Giron*, Georgios Korpas, Waqas Parvais* and Prashant Malik, Johannes Aspman (* = Equal contribution). 
 
-
+<h5>Contact</h5>
 Questions, corrections and comments should be directed to:  
 [megancharrisze@gmail.com](mailto:megancharrisze@gmail.com) and/or
 [waqasparvaiz@live.co.uk](mailto:waqasparvaiz@live.co.uk) 
