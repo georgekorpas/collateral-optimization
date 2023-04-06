@@ -4,7 +4,7 @@ Collateral Optimization using MILP and QUBO formulations.
 
 <h2>Generic Information</h2>
 
-In this repository we provide the code used to generate the numericall illustrations on [arxiv identifier]. In this paper we study the problem of collateral optimization. In the afformentioned paper we:
+In this repository we provide the code used to generate the numericall illustrations on [arxiv identifier]. In the paper we study the problem of collateral optimization wherein we:
 1. Review the problem of collateral optimization with a small appetizer (that serves to explain our approach) using the Knapsack Problem.
 2. Provide a Mixed Integer Linear Programming (MILP) formulation. 
 3. Provide two approaches to reformulate the MILP problem as a Quadratic Unconstrained Binary Optimization (QUBO) problem. These include:   
