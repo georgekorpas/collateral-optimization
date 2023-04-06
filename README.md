@@ -17,7 +17,7 @@ We have several types of constraints for our collateral optimisation problem:
 2. Exposure constraints - The values of all assets posted to an account must be above the exposure for the account. 
 3. Single limits - There is a maximum limit on how much asset i can be posted to account j. 
 
-Remark: Consistency constraints are hard constraints and we cannot have any violations. Exposure constraints are soft constraints but we still want the solution values to be as close as possible to the requirements. For simplicity, we are currently solving it without the single limits but all files contain the function and the user can choose to activate it or not.
+Remark: Consistency constraints are hard constraints and we cannot have any violations. Exposure constraints are soft constraints but we still want the solution values to be as close as possible to the requirements. For simplicity, we are currently solving it without the single limits but all files contain the function and the user can choose to activate it or not. Finally, let us note that we also add code for implementing haircuts. The data for all those constraints are given as .csv files.
 
 
 <h2>Contents</h2>
