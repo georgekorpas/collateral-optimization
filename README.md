@@ -41,6 +41,9 @@ Here we also provide two files that, using the QUBO reformulations provided in t
 
 At a high level we were able to obtain results comparable to classical MILP solvers with potential sources of discrepancy being the bit allocation restrictions by the emulators. 
 
+![Alt text or description](URL_to_image)
+
+
 <h4>Contributors</h4>
 This body of research has been conducted by: Megan Giron*, Georgios Korpas, Waqas Parvaiz* and Prashant Malik, Johannes Aspman (* = Equal contribution). 
 
