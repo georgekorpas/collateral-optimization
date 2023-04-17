@@ -37,6 +37,12 @@ Here we also provide two files that, using the QUBO reformulations provided in t
 1. File [balanced_collateral_fujitsu_nosinglelimits.ipynb](./balanced_collateral_fujitsu_nosinglelimits.ipynb) provides the code for the balanced (slack-based) formulation.  
 2. File [unbalanced_collateral_fujitsu_nosinglelimits.ipynb](./unbalanced_collateral_fujitsu_nosinglelimits.ipynb) provides the code for the unbalanced formulation.  
 
+<h3>Results</h3>
+
+At a high level we were able to obtain results comparable to classical MILP solvers with potential sources of discrepancy being the bit allocation restrictions by the emulators. 
+
+![](results_run_14_04.png)
+
 
 <h4>Contributors</h4>
 This body of research has been conducted by: Megan Giron*, Georgios Korpas, Waqas Parvaiz* and Prashant Malik, Johannes Aspman (* = Equal contribution). 
