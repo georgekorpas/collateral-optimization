@@ -17,7 +17,7 @@ We have several types of constraints for our collateral optimisation problem:
 2. Exposure constraints - The values of all assets posted to an account must be above the exposure for the account. 
 3. Single limits - There is a maximum limit on how much asset i can be posted to account j. 
 
-Remark: Consistency constraints are hard constraints and we cannot have any violations. Exposure constraints are soft constraints but we still want the solution values to be as close as possible to the requirements. For simplicity, we are currently solving it without the single limits but all files contain the function and the user can choose to activate it or not. Finally, let us note that we also add code for implementing haircuts. The data for all those constraints are given as .csv files.
+Remark: Consistency constraints are hard constraints and we cannot have any violations. Exposure constraints are soft constraints but we still want the solution values to be as close as possible to the requirements. There are two versions of each script, one where we neglect single limit (one-to-one) constraints for simplicity and those where single limits are implemented. Finally, let us note that we also add code for implementing haircuts. The data for all those constraints are given as .csv files.
 
 
 <h2>Contents</h2>
@@ -31,11 +31,24 @@ Here we provide two notebooks, each implementing one of the QUBO form we propose
 2. File [unbalanced_collateral_pyqubo_nosinglelimits.ipynb](./unbalanced_collateral_pyqubo_nosinglelimit.ipynb)
 
 
+1. File [balanced_collateral_pyqubo_single_limits.ipynb](./balanced_collateral_pyqubo_single_limits.ipynb)
+2. File [unbalanced_collateral_pyqubo_single_limits.ipynb](./unbalanced_collateral_pyqubo_single_limits.ipynb)
+
+
 <h3>Fujitsu's Digital Annealer</h3>
 Here we also provide two files that, using the QUBO reformulations provided in the paper, solve the problem approximately using [Fujitsu's Digital Annealer Emulator](https://www.fujitsu.com/de/themes/digitalannealer/get-started/get-started-en.html). Concretely: 
 
 1. File [balanced_collateral_fujitsu_nosinglelimits.ipynb](./balanced_collateral_fujitsu_nosinglelimits.ipynb) provides the code for the balanced (slack-based) formulation.  
 2. File [unbalanced_collateral_fujitsu_nosinglelimits.ipynb](./unbalanced_collateral_fujitsu_nosinglelimits.ipynb) provides the code for the unbalanced formulation.  
+
+<h3>Code with Single Limit constraints </h3>
+
+The analagous files which include the single limit constraints are :
+1. File [balanced_collateral_pyqubo_single_limits.ipynb](./balanced_collateral_pyqubo_single_limits.ipynb)
+2. File [unbalanced_collateral_pyqubo_single_limits.ipynb](./unbalanced_collateral_pyqubo_single_limits.ipynb)
+3. File [balanced_collateral_fujitsu_single_limits.ipynb](./balanced_collateral_fujitsu_single_limits.ipynb)
+4. File [unbalanced_collateral_fujitsu_single_limits.ipynb](./unbalanced_collateral_fujitsu_single_limits.ipynb)
+
 
 <h3>Results</h3>
 
