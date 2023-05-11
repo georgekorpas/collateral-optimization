@@ -31,10 +31,6 @@ Here we provide two notebooks, each implementing one of the QUBO form we propose
 2. File [unbalanced_collateral_pyqubo_nosinglelimits.ipynb](./unbalanced_collateral_pyqubo_nosinglelimit.ipynb)
 
 
-1. File [balanced_collateral_pyqubo_single_limits.ipynb](./balanced_collateral_pyqubo_single_limits.ipynb)
-2. File [unbalanced_collateral_pyqubo_single_limits.ipynb](./unbalanced_collateral_pyqubo_single_limits.ipynb)
-
-
 <h3>Fujitsu's Digital Annealer</h3>
 Here we also provide two files that, using the QUBO reformulations provided in the paper, solve the problem approximately using [Fujitsu's Digital Annealer Emulator](https://www.fujitsu.com/de/themes/digitalannealer/get-started/get-started-en.html). Concretely: 
 
@@ -52,9 +48,9 @@ The analagous files which include the single limit constraints are :
 
 <h3>Results</h3>
 
-At a high level we were able to obtain results comparable to classical MILP solvers with potential sources of discrepancy being the bit allocation restrictions by the emulators. 
+At a high level we were able to obtain results comparable to classical MILP solvers with potential sources of discrepancy being the bit allocation restrictions by the emulators.  See File [plotted_results_single_limits.ipynb](./plotted_results_single_limits.ipynb) for results obtain for the Collateral Optimization instance with one-to-one limits imposed.
 
-![](results_run_14_04.png)
+<!-- ![](results_run_14_04.png) -->
 
 
 <h4>Contributors</h4>
